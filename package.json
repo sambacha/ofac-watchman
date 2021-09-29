@@ -1,0 +1,17 @@
+{
+  "name": "ofac-denylist",
+  "version": "0.1.0",
+  "description": "FinCEN/OFAC Sanctioned Ethereum Address lists with automated updates, zero dependencies",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "data": "data"
+  },
+  "scripts": {
+    "check": "sh scripts/invoke.sh",
+    "compile": "node build_list.js"
+  },
+  "keywords": ["ofac", "kyc", "aml", "sanctions", "ethereum", "cryptocurrencies" ],
+  "author": "SEE CONTRIBUTORS",
+  "license": "BSD-4"
+}
